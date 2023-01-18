@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [София Ююкина](https://up.htmlacademy.ru/htmlcss/36/user/827639).
-* Наставник: `Неизвестно`.
+* Наставник: [Никита Сигов](https://htmlacademy.ru/profile/crazer).
 
 ---
 
