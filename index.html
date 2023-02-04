@@ -3,12 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
       <nav class="navigation">
         <a class="navigation-logo-link" href="#">
-          <img class="navigation-logo" src="#" alt="Логотип Седона.">
+          <img class="navigation-logo" src="images/logo-sedona.svg" width="140" height="70" alt="Логотип Седона.">
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -24,16 +25,13 @@
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
             <button class="navigation-button" type="button">
-              <span class="visually-hidden">
-                Поиск
-              </span>
+              <span class="visually-hidden">Поиск</span>
             </button>
           </li>
           <li class="navigation-item">
             <button class="navigation-button" type="button">
-              <span class="visually-hidden">
-                 Избранное
-              </span>
+              <span class="visually-hidden">Избранное</span>
+              <span class="navigation-added-favorite">12</span>
             </button>
           </li>
           <li class="navigation-item">
@@ -44,20 +42,20 @@
     </header>
     <main class="main-index">
       <h1 class="visually-hidden">Седона</h1>
-      <section class="welcome">
+      <section class="hero">
         <h2 class="visually-hidden">Добро пожаловать в Седону</h2>
-        <img class="welcome-logo" src="#" alt="Добро пожаловать в Седону.">
+        <img class="hero-logo" src="images/welcome.svg" width="458" height="352" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!.">
       </section>
       <section class="about-us">
         <h2 class="visually-hidden">О Седоне</h2>
-        <p class="main-text">Седона — небольшой городок в Аризоне,
+        <p class="big-text">Седона — небольшой городок в Аризоне,
           заслуживающий большего!</p>
         <p class="sub-text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         <ul class="about-us-list">
           <li class="about-us-item">
             <h3 class="about-us-title">Настоящий городок</h3>
             <p class="about-us-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            <img class="about-us-img" src="#" alt="Город Седона.">
+            <img class="about-us-img" src="images/about-us-city.jpg" width="800" height="384" alt="Город Седона.">
           </li>
           <li class="about-us-item">
             <h3 class="about-us-title">Небольшая площадь</h3>
@@ -74,7 +72,7 @@
           <li class="about-us-item">
             <h3 class="about-us-title">Там есть мост дьявола</h3>
             <p class="about-us-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-            <img class="about-us-img" src="#" alt="Каньон в Седоне.">
+            <img class="about-us-img" src="images/about-us-canyon.jpg" width="800" height="385" alt="Каньон в Седоне.">
           </li>
         </ul>
       </section>
@@ -99,12 +97,12 @@
       </section>
       <section class="search">
         <h2 class="visually-hidden"> Поиск гостиницы</h2>
-        <p class="main-text">Заинтересовались?</p>
+        <p class="big-text">Заинтересовались?</p>
         <p class="sub-text">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <a class="button search-link" href="catalog.html">Поиск гостиницы в Седоне</a>
       </section>
       <section class="subscribe">
-        <h2 class="visually-hidden"> Подпишитесь на рассылку</h2>
+        <h2 class="subscribe-title"> Подпишитесь на рассылку</h2>
         <p class="subscribe-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="email-input">Email</label>
@@ -141,7 +139,7 @@
       <section class="footer-developer">
         <h2 class="visually-hidden">Сайт разработчика</h2>
         <a class="developer-link" href="https://htmlacademy.ru/">
-          <img class="developer-logo" src="#" alt="Логотип HTML Academy.">
+          <img class="developer-logo" src="images/logo-htmlacademy.svg" width="115" height="33" alt="Логотип HTML Academy.">
         </a>
       </section>
     </footer>
