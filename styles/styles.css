@@ -18,13 +18,13 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
-  background-color: #FFFFFF;
+  background-color: #F2F2F2;
   color: #000000;
 }
 
-.page-header {
+.main-shell {
   background-color: #FFFFFF;
-  color: #000000;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .navigation-list {
@@ -54,6 +54,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
+  border: none;
 }
 
 .button.navigation-link {
@@ -64,6 +65,8 @@ body {
 .hero {
   background-image: url(../images/welcome-background.jpg);
   background-repeat: no-repeat;
+  width: 1200px;
+  height: 485px;
 }
 
 .big-text {
@@ -108,17 +111,14 @@ body {
 }
 
 .about-us-square .about-us-text,
-.about-us-tourists .about-us-text {
+.about-us-tourists .about-us-text,
+.about-us-road .about-us-text {
   color: #333333;
 }
 
 .about-us-road {
   background-color: rgba(131, 179, 211, 0.2);
   color: #000000;
-}
-
-.about-us-road .about-us-text {
-  color: #333333;
 }
 
 .advantages {
@@ -129,8 +129,8 @@ body {
   list-style: none;
 }
 
-.advantages-item:first-child,
-.advantages-item:last-child {
+.advantages-house,
+.advantages-gifts {
   background-color: rgba(131, 179, 211, 0.12);
 }
 
@@ -210,7 +210,7 @@ body {
   line-height: 21px;
 }
 
-.hotel-name h3 {
+.hotel-name .hotel-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -241,6 +241,10 @@ body {
   background-color: #82B3D3;
   font-size: 16px;
   line-height: 20px;
+}
+
+.button.added-to-favorite {
+  background-color: #7DB54F;
 }
 
 .rating {
@@ -280,6 +284,8 @@ body {
   background-repeat: no-repeat;
   background-color: #8AAAB7;
   color: #FFFFFF;
+  width: 1200px;
+  height: 414px;
 }
 
 .subscribe-inner {
