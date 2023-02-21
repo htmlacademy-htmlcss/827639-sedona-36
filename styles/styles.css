@@ -61,7 +61,12 @@ body {
 }
 
 .navigation-logo-link {
+  display: block;
   margin-right: 30px;
+}
+
+.navigation-logo {
+  display: block;
 }
 
 .navigation-list {
@@ -85,6 +90,10 @@ body {
   background-color: #FFFFFF;
   min-width: 44px;
   min-height: 64px;
+}
+
+.navigation-button:hover {
+  cursor: pointer;
 }
 
 .navigation-added-favorite {
@@ -118,6 +127,10 @@ body {
   font-family: "PT Sans", sans-serif;
 }
 
+.button:hover {
+  cursor: pointer;
+}
+
 .button.navigation-link {
   font-size: 16px;
   line-height: 20px;
@@ -129,7 +142,7 @@ body {
   background-image: url(../images/welcome-background.jpg);
   background-repeat: no-repeat;
   padding: 51px 0 82px;
-  background-size: 1200px 485px;
+  background-size: 100% 485px;
 }
 
 .hero-logo {
@@ -201,7 +214,7 @@ body {
   flex-direction: row-reverse;
 }
 
-.about-us-wrapper {
+.about-us-item-wrapper {
   width: 400px;
   min-height: 385px;
   display: flex;
@@ -302,6 +315,7 @@ body {
 .catalog-backgound {
   background-image: url(../images/filters-background.jpg);
   background-repeat: no-repeat;
+  background-size: 100% 412px;
   background-color: #87B0D0;
   color: #FFFFFF;
   padding: 35px 70px 70px;
@@ -327,10 +341,11 @@ body {
 .breadcrumbs-item {
   font-size: 16px;
   line-height: 21px;
+  margin-right: 28px;
 }
 
-.breadcrumbs-link {
-  margin-right: 28px;
+.breadcrumbs-item:last-child {
+  margin-right: 0;
 }
 
 .catalog-filter-title {
@@ -370,6 +385,7 @@ body {
 
 .mode-wrapper {
   display: flex;
+  gap: 8px;
 }
 
 .mode {
@@ -378,11 +394,6 @@ body {
   height: 44px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
-  margin-right: 8px;
-}
-
-.mode:last-child {
-  margin-right: 0;
 }
 
 .mode-active {
@@ -416,25 +427,18 @@ body {
 .hotel-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
   list-style: none;
   padding: 0;
+  padding-bottom: 40px;
   margin: 0;
+  border-bottom: 1px solid #E6E6E6;
 }
 
 .hotel-item {
   width: 340px;
-  margin-right: 20px;
-  margin-bottom: 20px;
   outline: 1px solid #E6E6E6;
   border-radius: 4px;
-}
-
-.hotel-item:last-child {
-  margin-bottom: 40px;
-}
-
-.hotel-item:nth-child(3n) {
-  margin-right: 0;
 }
 
 .hotel-name .hotel-title {
@@ -488,11 +492,6 @@ body {
   line-height: 20px;
   text-transform: uppercase;
   border-radius: 4px;
-}
-
-.divider {
-  border: 1px solid #E6E6E6;
-  margin: 0;
 }
 
 .catalog-pagination {
@@ -588,6 +587,7 @@ body {
 .subscribe-input {
   border: none;
   width: 452px;
+  background-color: #F2F2F2;
 }
 
 .subscribe-form input::placeholder {
