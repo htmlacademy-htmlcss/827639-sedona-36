@@ -49,31 +49,33 @@
         </section>
         <section class="about-us">
           <h2 class="visually-hidden">О Седоне</h2>
-          <p class="big-text sedona-text">Седона — небольшой городок в Аризоне,
+          <div class="about-us-description">
+            <p class="big-text">Седона — небольшой городок в Аризоне,
             заслуживающий большего!</p>
-          <p class="sub-text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+            <p class="sub-text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+          </div>
           <ul class="about-us-list">
             <li class="about-us-item about-us-city">
-              <div class="about-us-wrapper">
+              <div class="about-us-item-wrapper">
                 <h3 class="about-us-title">Настоящий городок</h3>
                 <p class="about-us-text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
               </div>
               <img class="about-us-img" src="images/about-us-city.jpg" width="800" height="384" alt="Город Седона.">
             </li>
-            <li class="about-us-item about-us-square about-us-wrapper">
+            <li class="about-us-item about-us-square about-us-item-wrapper">
               <h3 class="about-us-title">Небольшая площадь</h3>
               <p class="about-us-text">Все достопримечательности находятся очень близко</p>
             </li>
-            <li class="about-us-item about-us-road about-us-wrapper">
+            <li class="about-us-item about-us-road about-us-item-wrapper">
               <h3 class="about-us-title">Красивая дорога</h3>
               <p class="about-us-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </li>
-            <li class="about-us-item about-us-tourists about-us-wrapper">
+            <li class="about-us-item about-us-tourists about-us-item-wrapper">
               <h3 class="about-us-title">Мало туристов</h3>
               <p class="about-us-text">Большинство едет в Гранд Каньон и толпится там</p>
             </li>
             <li class="about-us-item about-us-bridge">
-              <div class="about-us-wrapper">
+              <div class="about-us-item-wrapper">
                 <h3 class="about-us-title">Там есть мост дьявола</h3>
                 <p class="about-us-text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
               </div>
@@ -83,8 +85,10 @@
         </section>
         <section class="advantages">
           <h2 class="visually-hidden">Преимущества</h2>
-          <p class="big-text">Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
-          <p class="sub-text">Опытный персонал и качественное обслуживание! </p>
+          <div class="advantages-description">
+            <p class="big-text">Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
+            <p class="sub-text">Опытный персонал и качественное обслуживание! </p>
+          </div>
           <ul class="advantages-list">
             <li class="advantages-item advantages-house">
               <h3 class="advantages-title">Жильё</h3>
@@ -110,8 +114,8 @@
           <h2 class="subscribe-title"> Подпишитесь на рассылку</h2>
           <p class="subscribe-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label for="email-input">Email</label>
-            <input id="email-input" type="email" name="user-email" placeholder="Ваш e-mail">
+            <label class="visually-hidden" for="email-input">Email</label>
+            <input class="subscribe-input" id="email-input" type="email" name="user-email" placeholder="Ваш e-mail">
             <button class="button subscribe-button" type="submit">Подписаться</button>
           </form>
         </section>
