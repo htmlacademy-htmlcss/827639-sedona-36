@@ -670,17 +670,23 @@ body {
 }
 
 .add-to-favorite:hover,
-.button-show:hover {
+.button-show:hover,
+.subscribe-button:hover,
+.pagination-disabled:hover {
   background-color: #68A2CA;
 }
 
 .add-to-favorite:focus,
-.button-show:focus {
+.button-show:focus,
+.subscribe-button:focus,
+.pagination-disabled:focus {
   background-color: #68A2CA;
 }
 
 .add-to-favorite:active,
-.button-show:active {
+.button-show:active,
+.subscribe-button:active,
+.pagination-disabled:hover {
   color: rgba(255, 255, 255, 0.3)
 }
 
@@ -762,17 +768,8 @@ body {
   border-radius: 4px;
 }
 
-.pagination-disabled:hover {
-  background-color: #68A2CA;
-}
-
-.pagination-disabled:focus {
-  background-color: #68A2CA;
-}
-
 .pagination-disabled:active {
   background-color: #82B3D3;
-  color: rgba(255, 255, 255, 0.3);
 }
 
 .pagination-current {
@@ -845,24 +842,12 @@ body {
   line-height: 24px;
 }
 
-.button.subscribe-button {
+.subscribe-button {
   background-color: #82B3D3;
   font-size: 20px;
   line-height: 36px;
   padding: 8px 50px;
   border-radius: 0 4px 4px 0;
-}
-
-.subscribe-button:hover {
-  background-color: #68A2CA;
-}
-
-.subscribe-button:focus {
-  background-color: #68A2CA;
-}
-
-.subscribe-button:active {
-  color: rgba(255, 255, 255, 0.3)
 }
 
 .page-footer-container {
@@ -912,25 +897,23 @@ body {
   max-width: 115px;
 }
 
-developer-link {
+.developer-link {
   display: block;
-  text-decoration: none;
   color: #000000;
 }
 
-.developer-link:visited {
-  color: #000000;
-}
-
-.developer-link:hover {
+.developer-link:hover,
+.contacts-phone:hover {
   color: #756157;
 }
 
-.developer-link:focus {
+.developer-link:focus,
+.contacts-phone:focus {
   color: #756157;
 }
 
-.developer-link:active {
+.developer-link:active,
+.contacts-phone:active {
   color: rgba(117, 97, 87, 0.3);
 }
 
@@ -940,16 +923,4 @@ developer-link {
   font-size: 40px;
   line-height: 40px;
   text-decoration: none;
-}
-
-.contacts-phone:hover {
-  color: #756157;
-}
-
-.contacts-phone:focus {
-  color: #756157;
-}
-
-.contacts-phone:active {
-  color: rgba(117, 97, 87, 0.3);
 }
