@@ -93,15 +93,15 @@
           <ul class="advantages-list">
             <li class="advantages-item advantages-house">
               <h3 class="advantages-title">Жильё</h3>
-              <p class="advantages-text">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+              <p class="advantages-text">Рекомендуем пожить <br> в настоящем мотеле, <br> всё как в кино!</p>
             </li>
             <li class="advantages-item advantages-food">
               <h3 class="advantages-title">Еда</h3>
-              <p class="advantages-text">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+              <p class="advantages-text">Всегда заказывайте <br> топовый фирменный бургер, <br> вы не разочаруетесь!</p>
             </li>
             <li class="advantages-item advantages-gifts">
               <h3 class="advantages-title ">Сувениры</h3>
-              <p class="advantages-text">Не только китайского, но и настоящего местного производства!</p>
+              <p class="advantages-text">Не только китайского, <br> но и настоящего местного производства!</p>
             </li>
           </ul>
         </section>
@@ -172,6 +172,40 @@
           </a>
         </section>
       </footer>
+    </div>
+    <div class="modal-container modal-container-close">
+      <div class="modal modal-search">
+        <button class="modal-close-button">
+          <div class="modal-close-icon"></div>
+          <span class="visually-hidden">Закрыть</span>
+        </button>
+        <section class="modal-content">
+          <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+          <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
+            <p class="field-group">
+              <label class="modal-label" for="arrival-date">Дата Заезда:</label>
+              <input class="modal-input date-input" type="text" id="arrival-date" name="arrival-date" value="27 апреля 2020">
+              <p class="modal-text error-text">Мы не можем отправить вас в прошлое.</p>
+            </p>
+            <p class="field-group">
+              <label class="modal-label" for="departure-date">Дата Выезда:</label>
+              <input class="modal-input date-input" type="text" id="departure-date" name="departure-date" value="1 сентября 2023">
+              <p class="modal-text">На эти даты есть свободные номера. Пока есть.</p>
+            </p>
+            <div class="number-wrapper">
+              <p class="field-group">
+                <label class="modal-label" for="adults">Взрослые:</label>
+                <input class="modal-input number-input" type="number" id="adults" name="adults" value="2">
+              </p>
+              <p class="field-group">
+                <label class="modal-label" for="children">Дети:</label>
+                <input class="modal-input number-input" type="number" id="children" name="children" value="2">
+              </p>
+            </div>
+            <button class="button modal-button">Найти</button>
+          </form>
+        </section>
+      </div>
     </div>
   </body>
 </html>
