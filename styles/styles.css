@@ -1046,7 +1046,7 @@ input.control-input:focus + .control-radio {
 }
 
 .subscribe-form input::placeholder {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 24px;
 }
