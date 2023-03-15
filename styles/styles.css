@@ -1046,7 +1046,7 @@ input.control-input:focus + .control-radio {
 }
 
 .subscribe-form input::placeholder {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 24px;
 }
@@ -1212,6 +1212,7 @@ input.control-input:focus + .control-radio {
 
 .field-group {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin: 0;
   font-size: 20px;
@@ -1220,7 +1221,7 @@ input.control-input:focus + .control-radio {
 }
 
 .modal-label {
-  min-width: 137px;
+  min-width: 134px;
 }
 
 .modal-input {
@@ -1296,6 +1297,7 @@ input.control-input:focus + .control-radio {
 .modal-text {
   padding: 0 20px;
   margin: 0;
+  margin-bottom: 23px;
   margin-left: 137px;
   font-size: 16px;
   line-height: 20px;
